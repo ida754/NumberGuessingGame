@@ -6,6 +6,7 @@ An interactive, text-based algorithmic console game built using C# and .NET fram
 *  **Absolut Proximity Tracking**:Employs mathematical distance evaluation ('Math.Abs') to deliver context-aware,localized feedbackmetrics ("almost there" vs "too far") instead of generic boundary pointers.
 *  **Localized Resource Budgeting**:Implements a strict execution capping player lifecycle thresholds  at exactly  5 guessing cycles.
 *  **UX Optimization**:Synthesizes screen flushes('Console.Clear') and defensive user input normalization('ToLower().Trim()')to handle game reset validation securely.
+*  **Robust Input Validation**:Employs structural parsing constraints(int.TryParse) to evaluate stream inputs, gracefully neutralizing format mismatch exceptions and preventing runtime crushes.
 
 ## Concepts and Engineering Principles Practised
 * **Multi-Tiered Loop Nesting**:Orchestrating an absolute application execution cycle  wrapping a conditional processing engine ('while' emedded inside 'do-while').
